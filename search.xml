@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>数学公式显示测试</title>
+      <link href="/2024/12/19/Math_Formula_test/"/>
+      <url>/2024/12/19/Math_Formula_test/</url>
+      
+        <content type="html"><![CDATA[<p><strong>这篇文章用于测试数学公式显示情况</strong><br>$$<br>a^2 &#x3D; b^2 + c^2<br>$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文显示测试</title>
+      <link href="/2024/12/19/Chinese_test/"/>
+      <url>/2024/12/19/Chinese_test/</url>
+      
+        <content type="html"><![CDATA[<p>​<strong>这篇文章用于测试中文显示情况</strong></p><h1 id="你好，世界！"><a href="#你好，世界！" class="headerlink" title="你好，世界！"></a>你好，世界！</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用Hexo与Github创建个人博客</title>
+      <link href="/2024/12/19/blog_tutorial/"/>
+      <url>/2024/12/19/blog_tutorial/</url>
+      
+        <content type="html"><![CDATA[<p>[toc]</p><h1 id="1-Github相关准备"><a href="#1-Github相关准备" class="headerlink" title="1. Github相关准备"></a>1. Github相关准备</h1><h1 id="2-Hexo本地配置"><a href="#2-Hexo本地配置" class="headerlink" title="2. Hexo本地配置"></a>2. Hexo本地配置</h1><h1 id="3-部署到Github"><a href="#3-部署到Github" class="headerlink" title="3. 部署到Github"></a>3. 部署到Github</h1><h1 id="4-简单编辑博客页面"><a href="#4-简单编辑博客页面" class="headerlink" title="4. 简单编辑博客页面"></a>4. 简单编辑博客页面</h1><h1 id="5-文档编辑注意事项"><a href="#5-文档编辑注意事项" class="headerlink" title="5. 文档编辑注意事项"></a>5. 文档编辑注意事项</h1><h2 id="5-1-文档开头"><a href="#5-1-文档开头" class="headerlink" title="5.1  文档开头"></a>5.1  文档开头</h2><pre><code class="highlight markdown">---title: date: tags: <span class="section">mathjax: </span><span class="section">---</span></code></pre><ul><li>每份文档开头需要添加以上内容，其<strong>含义</strong>如下：</li></ul><blockquote><p>title：文档名</p><p>date：编辑日期</p><p>tags：分类标签</p><p>mathjax：是否渲染数学公式</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验 </category>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
