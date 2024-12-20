@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hyt&#39;s blog</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="Hyt&#39;s blog">
+  <title>使用Hexo与Github创建个人博客 | Hyt&#39;s blog</title>
+  <meta name="keywords" content=" hexo , github ">
+  <meta name="description" content="使用Hexo与Github创建个人博客 | Hyt&#39;s blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="测试一下md文件名为中文时是否会出bug 测试结果：暂未发现问题，保存时可以使用中文名 注意！文件只能通过utf-8的格式进行保存，使用其他可能会出现中文显示乱码的问题">
 <meta property="og:type" content="article">
@@ -57,7 +57,7 @@
 
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/"
    class="avatar_target">
@@ -277,18 +277,68 @@
 
     </div>
     <div class="hide-list">
-        <div class="semicircle" data-title="切换全屏 快捷键 s">
+        <div class="semicircle" data-title="Toggle full screen shortcut key s">
             <div class="brackets first"><</div>
             <div class="brackets">&gt;</div>
         </div>
     </div>
 </aside>
-<div id="post" class="index">
+<div id="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-使用Hexo与Github创建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B"><span class="toc-text">个人简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F"><span class="toc-text">联系方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-text">统计</span></a></li></ol>
+        <h1 class="article-title">使用Hexo与Github创建个人博客</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="经验">经验</a> > 
+            
+            <a  data-rel="经验&lt;---&gt;教程">教程</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">hexo</a>
+            
+            <a class="color2">github</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            Created At : <time class="date" title='Updated At: 2024-12-20 16:05:58'>2024-12-19 12:49</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            Views 👀 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-Github%E7%9B%B8%E5%85%B3%E5%87%86%E5%A4%87"><span class="toc-text">1. Github相关准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Hexo%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE"><span class="toc-text">2. Hexo本地配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E9%83%A8%E7%BD%B2%E5%88%B0Github"><span class="toc-text">3. 部署到Github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E7%AE%80%E5%8D%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2"><span class="toc-text">4. 简单编辑博客页面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">5. 文档编辑注意事项</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E6%96%87%E6%A1%A3%E5%BC%80%E5%A4%B4"><span class="toc-text">5.1  文档开头</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -301,20 +351,47 @@
     }
 </style>
 </div>
-            <h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h2><p><strong>这个人很懒，什么都没有写</strong></p>
-<h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><ul>
-<li><strong>e-mail：<a href="mailto:&#112;&#104;&#105;&#x6c;&#x65;&#x6d;&#97;&#116;&#x6f;&#x6c;&#x6f;&#103;&#121;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#46;&#117;&#115;&#x74;&#x63;&#x2e;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#112;&#104;&#105;&#x6c;&#x65;&#x6d;&#97;&#116;&#x6f;&#x6c;&#x6f;&#103;&#121;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#46;&#117;&#115;&#x74;&#x63;&#x2e;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a></strong></li>
-<li><strong>qq：1543848930</strong></li>
-</ul>
-<h2 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h2><p><strong>截止目前，已经写了<code class="article_number"></code>篇文章</strong></p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><div class='inner-toc'><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-Github%E7%9B%B8%E5%85%B3%E5%87%86%E5%A4%87"><span class="toc-text">1. Github相关准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Hexo%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE"><span class="toc-text">2. Hexo本地配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E9%83%A8%E7%BD%B2%E5%88%B0Github"><span class="toc-text">3. 部署到Github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E7%AE%80%E5%8D%95%E7%BC%96%E8%BE%91%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2"><span class="toc-text">4. 简单编辑博客页面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">5. 文档编辑注意事项</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#5-1-%E6%96%87%E6%A1%A3%E5%BC%80%E5%A4%B4"><span class="toc-text">5.1  文档开头</span></a></li></ol></li></ol></div></p>
+<h1 id="1-Github相关准备"><a href="#1-Github相关准备" class="headerlink" title="1. Github相关准备"></a>1. Github相关准备</h1><h1 id="2-Hexo本地配置"><a href="#2-Hexo本地配置" class="headerlink" title="2. Hexo本地配置"></a>2. Hexo本地配置</h1><h1 id="3-部署到Github"><a href="#3-部署到Github" class="headerlink" title="3. 部署到Github"></a>3. 部署到Github</h1><h1 id="4-简单编辑博客页面"><a href="#4-简单编辑博客页面" class="headerlink" title="4. 简单编辑博客页面"></a>4. 简单编辑博客页面</h1><h1 id="5-文档编辑注意事项"><a href="#5-文档编辑注意事项" class="headerlink" title="5. 文档编辑注意事项"></a>5. 文档编辑注意事项</h1><h2 id="5-1-文档开头"><a href="#5-1-文档开头" class="headerlink" title="5.1  文档开头"></a>5.1  文档开头</h2><pre><code class="highlight markdown">---
+title: 
+date: 
+tags: 
+<span class="section">mathjax: </span>
+<span class="section">---</span></code></pre>
 
-        </article>
-        
-        <p>
-            <a  class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<ul>
+<li>每份文档开头需要添加以上内容，其<strong>含义</strong>如下：</li>
+</ul>
+<blockquote>
+<p>title：文档名</p>
+<p>date：编辑日期</p>
+<p>tags：分类标签</p>
+<p>mathjax：是否渲染数学公式</p>
+</blockquote>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源 </span>
+    </div>
+</article>
+
+
+<p>
+    <a  class="dashang" onclick="dashangToggle()">💰</a>
+</p>
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -323,11 +400,11 @@
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="Toggle full screen shortcut key s"><span class="min "></span></button>
+    <div class="full-toc">
+        <button class="full" data-title="Toggle full screen shortcut key s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
+    </div>
 </div>
 
 <div class="hide_box" onclick="dashangToggle()"></div>
